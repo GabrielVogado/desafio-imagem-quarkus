@@ -1,12 +1,12 @@
-package br.com.desafio.quarkus;
+package br.com.desafio.quarkus.controller;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("/hello")
-public class GreetingResource {
+@Path("/image")
+public class ImageController {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
